@@ -1,0 +1,23 @@
+body{
+background-color: white;
+background-image: url(new_background.png);
+background-repeat: no-repeat;
+background-size: cover;
+color: black;
+}
+
+body*{
+  font-family: serif;
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: normal;
+  margin: 0;
+  color: black;
+
+}
+
+a, a:hover, a:visited{
+  color: black;
+  text-decoration: none;
+}

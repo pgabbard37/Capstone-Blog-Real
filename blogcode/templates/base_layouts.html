@@ -1,0 +1,17 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Oblivion: The Latest in Horror Cinema</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1><a href={% url 'articles:startpage' %}><img src="{% static 'Pentacle.png' %}"</a></h1>
+      {% block content %}
+      {% endblock %}
+    </div>
+</body>
+</html>
